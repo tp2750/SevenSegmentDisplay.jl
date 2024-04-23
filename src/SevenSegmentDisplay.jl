@@ -1,5 +1,6 @@
 module SevenSegmentDisplay
 
-# Write your package code here.
+include("src/definitions.jl")
+export dig2seg
 
 end
