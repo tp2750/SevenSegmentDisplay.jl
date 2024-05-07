@@ -1,6 +1,12 @@
 module SevenSegmentDisplay
 
-include("src/definitions.jl")
+import Images
+import ImageDraw
+
+include("definitions.jl")
 export dig2seg
+
+include("filter.jl")
+export filter_it, digit_score
 
 end
